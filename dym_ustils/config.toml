@@ -1,0 +1,48 @@
+[rollapp]
+# rollapp RPC endpoint. def 26657
+ROLLAP_RPC = "http://127.0.0.1:26657"
+
+# rollapp LSD\REST endpoint. def 1317
+ROLLAP_REST = "http://127.0.0.1:1317"
+
+# rollapp chain-id
+ROLLAP_CHAIN_ID = "tstmksa_7443605-1"
+# rollapp denom
+ROLLAP_DENOM = "afff"
+
+# replace with your addrs.
+# example: rollapp_evm keys add local-user2 --keyring-backend test --home ~/.roller/rollapp
+# each addr will spam in a separate thread. the more addrs you will add the more threads there will be
+IBC_SPAM_ADDRS = ["ethm1k3jr8ps67jnfjk6kqqkdyfnqgrnw0cljhr3csg", "ethm12c9mhtf0maysxdkq66wphr2re0v002a9fmw9ap", "ethm18xy60gz3f95546tduh35jslpcgsgm3msvues62"]
+
+# binary location must be in PATH or absolete path
+# example 'rollapp_evm' or '/usr/local/bin/rollapp_evm'
+BINARY_NAME = 'rollapp_evm'
+HOME = "~/.roller/rollapp"
+
+
+[hub]
+# hub LSD\REST endpoint. def 1318
+REST = "http://127.0.0.1:1318"
+
+# hub RPC endpoint. def 36657
+RPC = "http://127.0.0.1:36657"
+
+# hub chain-id
+CHAIN_ID = "dymension_100-1"
+
+# hub gas price
+GAS_PRICE = 100_000_000
+
+FULFILL_ADDR = "dym1srdh4kp66a00l76rk084lkylx9l0pg3ydue30e"
+# binary location must be in PATH or absolete path
+# example 'dymd' or '/usr/local/bin/dymd'
+BINARY_NAME = '/usr/local/bin/dymd'
+
+
+[misc]
+# log level INFO'| 'DEBUG' | 'CRITICAL' | 'ERROR' | 'WARNING' | 'FATAL
+log_level = 'INFO' 
+BROADCAST_MODE = 'sync'
+# disable\enale spam opts: true or false
+ENABLE_SPAM = false
