@@ -3,8 +3,8 @@ Requirements:
 `python3.11+`
 
 
-- Configure env and install deps:
-`sudo apt -y install python3.12-venv` or `apt -y install python3.11-venv`  
+- Configure env and install deps:  
+`sudo apt -y install python3.12-venv`  
 `python3.12 -m venv ~/eibc`  
 `source ~/eibc/bin/activate`  
 `pip install -r  requirements.txt`  
@@ -67,7 +67,7 @@ ENABLE_SPAM = false
 
 - usage  
 
-`python3.11 ibc_spam_and_ff.py`  
+`python3.12 ibc_spam_and_ff.py`  
 
 
 example of output:  
