@@ -45,4 +45,4 @@ BINARY_NAME = '/usr/local/bin/dymd'
 log_level = 'INFO' 
 BROADCAST_MODE = 'sync'
 # disable\enale spam opts: true or false
-ENABLE_SPAM = false
+ENABLE_SPAM = true
